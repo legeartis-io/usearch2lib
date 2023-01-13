@@ -1,0 +1,28 @@
+{
+  "name": "legeartis/usearch2",
+  "description": "Legeartis Unified Search v2 library",
+  "keywords": [
+    "legeartis",
+    "Unified Search v2"
+  ],
+  "homepage": "http://doc.legeartis.io/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "legeartis",
+      "email": "support@legeartis.io",
+      "homepage": "http://legeartis.io/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Legeartis\\UnifiedSearch\\": "src"
+    }
+  }
+}
